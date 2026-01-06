@@ -1,0 +1,12 @@
+.card-img-top {
+  height: 200px; /* or any height you want */
+  object-fit: cover; /* makes image cover card top without distortion */
+}
+
+.hover-zoom {
+  transition: transform 0.4s ease;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1);
+}
